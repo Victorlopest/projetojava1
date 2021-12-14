@@ -8,6 +8,7 @@ public class Pessoa {
 	private String sobrenome;
 	private int idade;
 	private Date dataNasc;
+	private String pessoa1;
 	
 	
 	public Date getDataNasc() {
@@ -33,6 +34,12 @@ public class Pessoa {
 	}
 	public void setSobrenome(String sobrenome) {
 		this.sobrenome = sobrenome;
+	}
+	public String getPessoa1() {
+		return pessoa1;
+	}
+	public void setPessoa1(String pessoa1) {
+		this.pessoa1 = pessoa1;
 	}
 	
 
