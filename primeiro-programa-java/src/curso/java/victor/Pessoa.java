@@ -8,6 +8,8 @@ public class Pessoa {
 	private String sobrenome;
 	private int idade;
 	private Date dataNasc;
+	private Date dtnascimento2;
+	
 	
 	
 	public Date getDataNasc() {
