@@ -1,12 +1,21 @@
 package curso.java.victor;
 
+import java.util.Date;
+
 public class Pessoa {
 	
 	private String nome;
 	private String sobrenome;
 	private int idade;
+	private Date dataNasc;
 	
 	
+	public Date getDataNasc() {
+		return dataNasc;
+	}
+	public void setDataNasc(Date dataNasc) {
+		this.dataNasc = dataNasc;
+	}
 	public int getIdade() {
 		return idade;
 	}
