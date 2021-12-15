@@ -10,6 +10,9 @@ public class Pessoa {
 	private Date dataNasc;
 	private String pessoa1;
 	
+	String nomeCompletoString;
+	
+	
 	
 	public Date getDataNasc() {
 		return dataNasc;
